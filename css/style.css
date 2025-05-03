@@ -1,9 +1,16 @@
+.client_section {
+  background-image: url("../images/Desain\ tanpa\ judul.png");
+}
+
+.bg-all {
+  background-image: url("../images/Desain\ tanpa\ judul.png");
+}
+
 body {
   height: 100vh;
   font-family: "Raleway", sans-serif;
   background-color: #fefeff;
   position: relative;
-  /* background-image: url(../images/webb.png); */
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -16,6 +23,10 @@ body {
   line-height: 1.5em;
   color: white;
 }
+
+/* .jumbotron {
+  background-image: url("../images/Desain\ tanpa\ judul.png");
+} */
 
 .jumbotron-head {
   background-color: #fdd31d;
@@ -76,6 +87,8 @@ body {
 }
 
 .hero_section .call_to-btn {
+  /* tambahkan properti jika perlu */
+  margin-top: 20px;
 }
 
 .call_to-btn img {
@@ -95,6 +108,25 @@ body {
   transform: translateY(-7px);
 }
 
+.crop-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.crop-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* atau 'contain' tergantung kebutuhan */
+}
+
+.lesung {
+  height: 500px;
+}
+
+.M1 {
+  height: 250px;
+}
 .main-heading {
   color: #082465;
   font-weight: bold;
@@ -106,6 +138,7 @@ body {
 .header_section {
   padding-top: 10px;
   font-family: "Poppins", sans-serif;
+  background-color: #b68200;
 }
 
 nav.navbar.navbar-expand-lg {
@@ -134,6 +167,11 @@ a:focus {
   outline: none !important;
   box-shadow: none;
 }
+
+/* .container {
+  background-image: url("../images/Desain\ tanpa\ judul.png");
+  background-size: 100%;
+} */
 
 .top_container {
   position: relative;
